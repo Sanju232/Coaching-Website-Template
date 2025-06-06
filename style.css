@@ -1,0 +1,68 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+	scroll-behavior: smooth;
+}
+html,body{
+	overflow-x: hidden;
+}
+#down {
+  position: relative;
+  transition: all 0.3s ease;
+  z-index: 1000;
+}
+
+#down.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.right-div{
+	background-color:#FFAB02;
+}
+.first{
+	min-height:70vh;
+	width: 100%;
+}
+span{
+	color: #EA7527;
+}
+.card-logo{
+	font-size: 10vh;
+}
+
+.upper{
+	background-color: #0D2F4B;
+	
+}
+.review-img{
+	width: 15vh
+	/* border-radius: 50%; */
+}
+footer{
+	min-height: 55vh;
+	width: 100%;
+	/* text-shadow: #0D2F4B; */
+}
+.footer-img{
+	background-image: url(Images/bg-1.jpg);
+	background-size: cover;
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+hr{
+	height: 3px;
+	border: none;
+	background-color: #DF2156;
+	width: 50%;
+}
+.fix{
+	position: fixed;
+	top: 0;
+	width: 100%
+}
